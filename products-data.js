@@ -2,7 +2,7 @@
 const productsData = [
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-17-pro-max-256gb-white.jpg",
+        image: "images/iPhone-17-Pro-Max-256GB-White.jpg",
         title: "Apple iPhone 17 Pro Max 256GB (White)",
         price: "4 880 BYN",
         description: "Значительный рывок в производительности благодаря новому чипу и увеличенному объему ОЗУ, что критически важно для локального запуска нейросетей. Сохраняет за собой звание лучшего камерофона.",
@@ -18,7 +18,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-17-pro-max-256gb-orange.jpg",
+        image: "images/iPhone-17-Pro-Max-256GB-Orange.jpg",
         title: "Apple iPhone 17 Pro Max 256GB (Orange)",
         price: "4 880 BYN",
         description: "Значительный рывок в производительности благодаря новому чипу и увеличенному объему ОЗУ, что критически важно для локального запуска нейросетей. Сохраняет за собой звание лучшего камерофона.",
@@ -34,7 +34,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-17-pro-max-256gb-black.jpg",
+        image: "images/iPhone-17-Pro-Max-256GB-Black.jpg",
         title: "Apple iPhone 17 Pro Max 256GB (Black)",
         price: "4 880 BYN",
         description: "Значительный рывок в производительности благодаря новому чипу и увеличенному объему ОЗУ, что критически важно для локального запуска нейросетей. Сохраняет за собой звание лучшего камерофона.",
@@ -50,7 +50,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-17-256gb-white.jpg",
+        image: "images/iPhone-17-256GB-White.jpg",
         title: "Apple iPhone 17 256GB (White)",
         price: "3 070 BYN",
         description: "Увеличенный базовый объем памяти (256 ГБ вместо 128 ГБ) и внедрение экранов с высокой частотой обновления в базовые модели. Отличный апгрейд для владельцев iPhone 13/14.",
@@ -65,7 +65,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-17-256gb-green.jpg",
+        image: "images/iPhone-17-256GB-Green.jpg",
         title: "Apple iPhone 17 256GB (Green)",
         price: "3 070 BYN",
         description: "Увеличенный базовый объем памяти (256 ГБ вместо 128 ГБ) и внедрение экранов с высокой частотой обновления в базовые модели. Отличный апгрейд для владельцев iPhone 13/14.",
@@ -80,7 +80,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-17-256gb-fiol.jpg",
+        image: "images/iPhone-17-256GB-Fiol.jpg",
         title: "Apple iPhone 17 256GB (Fiol)",
         price: "3 070 BYN",
         description: "Увеличенный базовый объем памяти (256 ГБ вместо 128 ГБ) и внедрение экранов с высокой частотой обновления в базовые модели. Отличный апгрейд для владельцев iPhone 13/14.",
@@ -95,7 +95,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-17-256gb-blue.jpg",
+        image: "images/iPhone-17-256GB-Blue.jpg",
         title: "Apple iPhone 17 256GB (Blue)",
         price: "3 070 BYN",
         description: "Увеличенный базовый объем памяти (256 ГБ вместо 128 ГБ) и внедрение экранов с высокой частотой обновления в базовые модели. Отличный апгрейд для владельцев iPhone 13/14.",
@@ -110,7 +110,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-17-256gb-black.jpg",
+        image: "images/iPhone-17-256GB-Black.jpg",
         title: "Apple iPhone 17 256GB (Black)",
         price: "3 070 BYN",
         description: "Увеличенный базовый объем памяти (256 ГБ вместо 128 ГБ) и внедрение экранов с высокой частотой обновления в базовые модели. Отличный апгрейд для владельцев iPhone 13/14.",
@@ -125,7 +125,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-16-128gb-black.jpg",
+        image: "images/iPhone-16-128GB-Black.jpg",
         title: "Apple iPhone 16 128GB (Black)",
         price: "2 440 BYN",
         description: "Актуальный базовый флагман. Главное отличие от 15-й модели — новый чип, удвоенный объем оперативной памяти и физическая кнопка для управления съемкой. Это лучший выбор, если вы хотите получить максимальный срок поддержки актуальности устройства и все новинки iOS.",
@@ -140,7 +140,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-16-128gb-white.jpg",
+        image: "images/iPhone-16-128GB-White.jpg",
         title: "Apple iPhone 16 128GB (White)",
         price: "2 440 BYN",
         description: "Актуальный базовый флагман. Главное отличие от 15-й модели — новый чип, удвоенный объем оперативной памяти и физическая кнопка для управления съемкой. Это лучший выбор, если вы хотите получить максимальный срок поддержки актуальности устройства и все новинки iOS.",
@@ -155,7 +155,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-16-128gb-pink.webp",
+        image: "images/iPhone-16-128GB-Pink.webp",
         title: "Apple iPhone 16 128GB (Pink)",
         price: "2 440 BYN",
         description: "Актуальный базовый флагман. Главное отличие от 15-й модели — новый чип, удвоенный объем оперативной памяти и физическая кнопка для управления съемкой. Это лучший выбор, если вы хотите получить максимальный срок поддержки актуальности устройства и все новинки iOS.",
@@ -170,7 +170,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-16-128gb-green.webp",
+        image: "images/iPhone-16-128GB-Green.webp",
         title: "Apple iPhone 16 128GB (Green)",
         price: "2 440 BYN",
         description: "Актуальный базовый флагман. Главное отличие от 15-й модели — новый чип, удвоенный объем оперативной памяти и физическая кнопка для управления съемкой. Это лучший выбор, если вы хотите получить максимальный срок поддержки актуальности устройства и все новинки iOS.",
@@ -185,7 +185,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-16-128gb-blue.jpg",
+        image: "images/iPhone-16-128GB-Blue.jpg",
         title: "Apple iPhone 16 128GB (Blue)",
         price: "2 440 BYN",
         description: "Актуальный базовый флагман. Главное отличие от 15-й модели — новый чип, удвоенный объем оперативной памяти и физическая кнопка для управления съемкой. Это лучший выбор, если вы хотите получить максимальный срок поддержки актуальности устройства и все новинки iOS.",
@@ -200,7 +200,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-15-128gb-blue.webp",
+        image: "images/iPhone-15-128GB-Blue.webp",
         title: "Apple iPhone 15 128GB (Blue)",
         price: "2000 BYN",
         description: "Базовый флагман прошлого поколения. Отличный выбор для тех, кому нужен компактный, легкий смартфон с современным дизайном, отличной камерой и переходом на универсальный разъем USB-C. Идеально сбалансирован по цене и возможностям.",
@@ -216,7 +216,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-15-128gb-green.webp",
+        image: "images/iPhone-15-128GB-Green.webp",
         title: "Apple iPhone 15 128GB (Green)",
         price: "2000 BYN",
         description: "Базовый флагман прошлого поколения. Отличный выбор для тех, кому нужен компактный, легкий смартфон с современным дизайном, отличной камерой и переходом на универсальный разъем USB-C. Идеально сбалансирован по цене и возможностям.",
@@ -232,7 +232,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-15-128gb-pink.jpg",
+        image: "images/iPhone-15-128GB-Pink.jpg",
         title: "Apple iPhone 15 128GB (Pink)",
         price: "2000 BYN",
         description: "Базовый флагман прошлого поколения. Отличный выбор для тех, кому нужен компактный, легкий смартфон с современным дизайном, отличной камерой и переходом на универсальный разъем USB-C. Идеально сбалансирован по цене и возможностям.",
@@ -248,7 +248,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-15-128gb-black.webp",
+        image: "images/iPhone-15-128GB-Black.webp",
         title: "Apple iPhone 15 128GB (Black)",
         price: "2000 BYN",
         description: "Базовый флагман прошлого поколения. Отличный выбор для тех, кому нужен компактный, легкий смартфон с современным дизайном, отличной камерой и переходом на универсальный разъем USB-C. Идеально сбалансирован по цене и возможностям.",
@@ -264,7 +264,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-16-pro-max-256gb-black.jpg",
+        image: "images/iPhone-16-Pro-Max-256GB-Black.jpg",
         title: "Apple iPhone 16 Pro Max 256GB (Black)",
         price: "4 820 BYN",
         description: "Абсолютный максимум в линейке Apple. Огромный экран, премиальные материалы, лучшая в индустрии мобильная видеосъемка и топовая производительность. Устройство для тех, кто использует смартфон как основной инструмент для работы с контентом и не готов идти на компромиссы.",
@@ -280,7 +280,7 @@ const productsData = [
     },
 {
         badge: "В подарок чехол + стекло",
-        image: "images/iphone-16-pro-max-256gb-desert-titan.jpg",
+        image: "images/iPhone-16-Pro-Max-256GB-Desert-Titan.jpg",
         title: "Apple iPhone 16 Pro Max 256GB (Desert Titan)", 
         price: "4 820 BYN",
         description: "Абсолютный максимум в линейке Apple. Огромный экран, премиальные материалы, лучшая в индустрии мобильная видеосъемка и топовая производительность. Устройство для тех, кто использует смартфон как основной инструмент для работы с контентом и не готов идти на компромиссы.",
@@ -325,7 +325,7 @@ const productsData = [
     },
 {
         badge: "Хит продаж",
-        image: "images/airpods-pro-2.jpg",
+        image: "images/Airpods-Pro-2.jpg",
         title: "Apple AirPods Pro 2",
         price: "690 BYN",
         description: "Активное шумоподавление, адаптивный звук и до 6 часов прослушивания. Идеально подходят для спорта и работы.",
