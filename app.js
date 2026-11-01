@@ -32,7 +32,7 @@ function renderProducts(productsToRender = productsData) {
                 </div>
                 <a href="product.html?id=${product.id}" class="product-title">${product.title}</a>
                 <p class="product-price">${product.price}</p>
-                <button class="buy-button" onclick="addToCart(${product.id})">В корзину</button>
+                <button class="buy-button" onclick="event.stopPropagation(); addToCart(${product.id})">В корзину</button>
             </div>
         `;
         container.innerHTML += cardHtml;
