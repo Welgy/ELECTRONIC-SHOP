@@ -97,7 +97,7 @@ function checkout() {
                 </p>
 
                 <a href="tel:+375299897502" style="display: block; background: #194693; color: white; text-decoration: none; padding: 15px; border-radius: 8px; font-weight: bold; font-size: 18px; margin-bottom: 15px; transition: background 0.2s;">
-                    📞 +375 29 989 75 02
+                    📞 +375 29 XXX-XX-XX
                 </a>
                 
                 <p style="color: #999; font-size: 13px; margin-bottom: 20px;">Нажмите, чтобы позвонить с телефона</p>
