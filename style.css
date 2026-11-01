@@ -667,9 +667,6 @@ body {
 }
 
 @media (max-width: 480px) {
-    .products-grid {
-        grid-template-columns: 1fr; 
-    }
 
     .cart-item {
         flex-direction: column;
@@ -704,5 +701,70 @@ body {
     }
     .about-gallery {
         height: 200px;
+    }
+}
+
+/* мобильные фильтры */
+/* скрываем кнопку на компьютере */
+.mobile-filter-btn {
+    display: none; 
+    width: 100%;
+    padding: 12px;
+    background: #f0f4ff;
+    color: #194693;
+    border: 1px solid #dce6ff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .mobile-filter-btn {
+        display: flex;
+    }
+
+    .sidebar-wrapper {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index: 999;
+        justify-content: flex-end;
+    }
+
+    .sidebar-wrapper.show {
+        display: flex;
+    }
+
+    .sidebar-filters {
+        width: 80%;
+        max-width: 350px;
+        height: 100%;
+        margin: 0;
+        border-radius: 0;
+        overflow-y: auto;
+        animation: slideIn 0.3s ease-out;
+        position: relative;
+    }
+
+    @keyframes slideIn {
+        from { transform: translateX(100%); }
+        to { transform: translateX(0); }
+    }
+
+    #close-filter-btn {
+        display: none;
+        font-size: 28px;
+        line-height: 1;
+        padding: 0 10px;
+        color: #333;
     }
 }

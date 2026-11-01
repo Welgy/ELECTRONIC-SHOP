@@ -175,4 +175,31 @@ document.addEventListener('DOMContentLoaded', () => {
         
         applyFilters();
     });
+
+     /* мобильные фильтры */
+    const mobileFilterBtn = document.getElementById('mobile-filter-btn');
+    const sidebarWrapper = document.getElementById('sidebar-wrapper');
+    const closeFilterBtn = document.getElementById('close-filter-btn');
+
+    if (mobileFilterBtn && sidebarWrapper && closeFilterBtn) {
+        mobileFilterBtn.addEventListener('click', () => {
+            sidebarWrapper.classList.add('show');
+            closeFilterBtn.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        });
+
+        closeFilterBtn.addEventListener('click', () => {
+            sidebarWrapper.classList.remove('show');
+            closeFilterBtn.style.display = 'none';
+            document.body.style.overflow = '';
+        });
+
+        sidebarWrapper.addEventListener('click', (e) => {
+            if (e.target === sidebarWrapper) {
+                sidebarWrapper.classList.remove('show');
+                closeFilterBtn.style.display = 'none';
+                document.body.style.overflow = '';
+            }
+        });
+    }
 });
