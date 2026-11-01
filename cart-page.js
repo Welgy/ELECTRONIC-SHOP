@@ -93,7 +93,7 @@ function checkout() {
                 <h2 style="margin-top: 0; color: #1a1a1a; font-size: 22px;">Подтверждение заказа</h2>
                 
                 <p style="color: #555; font-size: 15px; line-height: 1.6; margin-bottom: 25px;">
-                    Для завершения оформления, пожалуйста, <strong>позвоните нашему менеджеру</strong>. Мы уточним наличие товара, детали доставки и ответим на все вопросы.
+                    Для завершения оформления, пожалуйста, <strong>позвоните нашему менеджеру</strong>. Мы уточним наличие товара и ответим на все вопросы.
                 </p>
 
                 <a href="tel:+375299897502" style="display: block; background: #194693; color: white; text-decoration: none; padding: 15px; border-radius: 8px; font-weight: bold; font-size: 18px; margin-bottom: 15px; transition: background 0.2s;">
