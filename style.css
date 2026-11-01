@@ -598,3 +598,111 @@ body {
     transform: scale(1.1);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+
+/* адаптивность для мобильных устройств*/
+@media (max-width: 1024px) {
+    .products-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .main-container {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* шапка */
+    .site-header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 15px;
+        gap: 10px;
+    }
+    .header-center {
+        width: 100%;
+        max-width: 100%;
+    }
+    .search-container {
+        margin-left: 0;
+        width: 100%;
+    }
+    .header-right {
+        width: 100%;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    /* основной контейнер */
+    .main-container {
+        flex-direction: column;
+        padding: 0 15px;
+        gap: 20px;
+    }
+    
+    /* боковая панель с фильтрами */
+    .sidebar-filters {
+        width: 100%;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+
+    /* сетка товаров */
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    /* карточка товара */
+    .product-card {
+        padding: 10px;
+    }
+    .product-image {
+        height: 140px;
+    }
+    .product-title {
+        font-size: 12px;
+    }
+    .product-price {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .products-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    .cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .cart-item-controls {
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .cart-summary {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .product-card-top {
+        flex-direction: column;
+        padding: 15px;
+        gap: 20px;
+    }
+    .product-image-block img {
+        max-height: 250px;
+    }
+
+    .contacts-grid {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+    .about-top {
+        flex-direction: column;
+    }
+    .about-gallery {
+        height: 200px;
+    }
+}
